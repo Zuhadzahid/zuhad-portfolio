@@ -4,41 +4,61 @@ import type { SocialProfile } from "@/features/portfolio/types/social-links"
  * Keyed registry of social profiles — the single source of truth. Icons are
  * bound separately in `social-link-icons.tsx` (keyed by the same `SocialName`),
  * so adding a profile here forces the icon map to stay in sync at compile time.
+ *
+ * Order here = display order. Blog/writing platforms (daily.dev, Medium) last.
  */
 export const SOCIAL = {
-  x: {
-    title: "X",
-    handle: "@iamncdai",
-    href: "https://x.com/iamncdai",
-    sameAs: true,
-  },
   github: {
     title: "GitHub",
-    handle: "ncdai",
-    href: "https://github.com/ncdai",
+    handle: "Zuhadzahid",
+    href: "https://github.com/Zuhadzahid",
     sameAs: true,
   },
-  linkedin: {
-    title: "LinkedIn",
-    handle: "ncdai",
-    href: "https://linkedin.com/in/ncdai",
+  x: {
+    title: "X",
+    handle: "@zuhadzahid1",
+    href: "https://x.com/zuhadzahid1",
     sameAs: true,
   },
-  dailydotdev: {
-    title: "daily.dev",
-    handle: "@ncdai",
-    href: "https://app.daily.dev/ncdai",
+  threads: {
+    title: "Threads",
+    handle: "@zuhadzahid1",
+    href: "https://www.threads.com/@zuhadzahid1",
+    sameAs: true,
+  },
+  bluesky: {
+    title: "Bluesky",
+    handle: "@zuhadzahid1.bsky.social",
+    href: "https://bsky.app/profile/zuhadzahid1.bsky.social",
+    sameAs: true,
+  },
+  youtube: {
+    title: "YouTube",
+    handle: "@zuhadzahid",
+    href: "https://www.youtube.com/@zuhadzahid",
     sameAs: true,
   },
   discord: {
     title: "Discord",
-    handle: "ncdai",
-    href: "https://discord.com/users/1186630645443739651",
+    handle: "zuhadzahid1",
+    href: "https://discord.com/channels/zuhadzahid1",
   },
-  youtube: {
-    title: "YouTube",
-    handle: "@ncdai",
-    href: "https://www.youtube.com/@ncdai",
+  linkedin: {
+    title: "LinkedIn",
+    handle: "zuhadzahid1",
+    href: "https://www.linkedin.com/in/zuhadzahid1/",
+    sameAs: true,
+  },
+  dailydotdev: {
+    title: "daily.dev",
+    handle: "@zuhadzahid",
+    href: "https://daily.dev/zuhadzahid",
+    sameAs: true,
+  },
+  medium: {
+    title: "Medium",
+    handle: "@zuhadzahid1",
+    href: "https://medium.com/@zuhadzahid1",
     sameAs: true,
   },
 } satisfies Record<string, SocialProfile>
