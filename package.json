@@ -38,7 +38,7 @@
     "capture:sync": "bun run ./src/scripts/capture-sync.mts",
     "icons:dev": "bun run ./src/scripts/build-icons.ts --watch",
     "icons:build": "bun run ./src/scripts/build-icons.ts",
-    "generate-libphonenumber-metadata": "libphonenumber-metadata-generator ./src/assets/libphonenumber.metadata.json --countries VN --extended",
+    "generate-libphonenumber-metadata": "libphonenumber-metadata-generator ./src/assets/libphonenumber.metadata.json --countries PK --extended",
     "upgrade:next": "npx @next/codemod@latest upgrade latest",
     "upgrade:tailwind": "npx @tailwindcss/upgrade@latest",
     "prepare": "husky"
