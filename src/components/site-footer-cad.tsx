@@ -24,7 +24,7 @@ const INSPIRED_BY = [
 ]
 
 const OPENPANEL_URL =
-  "https://openpanel.dev?utm_source=chanhdai.com&utm_medium=referral&utm_campaign=footer"
+  "https://openpanel.dev?utm_source=zuhad.zahid&utm_medium=referral&utm_campaign=footer"
 
 // Not derived from `SITE_INFO.url`: that follows `NEXT_PUBLIC_APP_URL` and
 // would read `ncdai.localhost` in dev.

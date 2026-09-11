@@ -31,9 +31,9 @@ export const USER: User = {
       website: "",
     },
   ],
-  about: `- I’m Chánh Đại (call me Dai) — a Design Engineer with 5+ years of experience, known for pixel-perfect execution and an obsessive attention to detail.
-- Passionate about exploring new technologies and turning ideas into reality through polished, thoughtfully crafted projects.
-- Creator of [chanhdai.com](https://github.com/ncdai/chanhdai.com) (2k stars), [React Wheel Picker](https://react-wheel-picker.chanhdai.com) (50k+ weekly downloads, ▲Vercel OSS Program), and [ZaDark](https://zadark.com) (80k+ downloads, 30k+ users) — peak metrics.
+  about: `- I’m Zuhad Zahid — a Software Engineer with 5+ years of experience building production-ready web applications, SaaS platforms, and developer-focused tools.
+- I enjoy working at the intersection of engineering, product, and AI — taking ideas from a blank canvas to reliable, scalable software with an obsessive focus on quality and user experience.
+- Builder of products including [ResumeModify](https://resumemodify.com), a cost-segregation platform for [AI Cost Depreciation](https://aicostdepreciation.com), plus WordPress plugins, Shopify apps, SaaS products, and multiple web applications built to solve real-world business problems.
 `,
   avatar: "/images/zz-avatar.webp",
   avatarVariants: {
