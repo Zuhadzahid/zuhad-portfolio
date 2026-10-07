@@ -21,6 +21,7 @@ import {
 import { Overview } from "@/features/portfolio/components/overview"
 import { ProfileHeader } from "@/features/portfolio/components/profile-header"
 import { Projects } from "@/features/portfolio/components/projects"
+import { ProjectsShowcase } from "@/features/portfolio/components/projects-showcase"
 import { SocialLinks } from "@/features/portfolio/components/social-links"
 import { Sponsors } from "@/features/portfolio/components/sponsors"
 import { SponsorsCarousel } from "@/features/portfolio/components/sponsors-carousel"
@@ -57,6 +58,9 @@ export default function HomePage() {
           <Separator />
 
           <Components />
+          <Separator />
+
+          <ProjectsShowcase />
           <Separator />
 
           <Blog />

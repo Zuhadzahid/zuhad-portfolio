@@ -3,7 +3,13 @@ import type { Doc } from "@/features/doc/types/document"
 
 import { PostItem } from "./post-item"
 
-export function PostList({ posts }: { posts: Doc[] }) {
+export function PostList({
+  posts,
+  basePath,
+}: {
+  posts: Doc[]
+  basePath?: "/blog" | "/projects"
+}) {
   return (
     <div className="relative pt-4">
       <div className="pointer-events-none absolute inset-0 -z-1 grid grid-cols-1 gap-4 max-sm:hidden sm:grid-cols-2">
@@ -23,6 +29,7 @@ export function PostList({ posts }: { posts: Doc[] }) {
             <PostItem
               post={post}
               imageLoading={index <= 3 ? "eager" : "lazy"}
+              basePath={basePath}
             />
           </li>
         ))}

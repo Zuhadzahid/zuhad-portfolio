@@ -78,10 +78,16 @@ export function getDocsByCategory(category: string) {
 /** Categories derived from the doc's content subfolder. */
 export const BLOG_CATEGORY = "blog"
 export const COMPONENTS_CATEGORY = "components"
+export const PROJECTS_CATEGORY = "projects"
 
 /** Blog posts — docs under the `blog/` content folder. */
 export function getBlogPosts() {
   return getDocsByCategory(BLOG_CATEGORY)
+}
+
+/** Project docs — docs under the `projects/` content folder. */
+export function getProjectDocs() {
+  return getDocsByCategory(PROJECTS_CATEGORY)
 }
 
 /** Component docs — docs under the `components/` content folder. */
